@@ -3,7 +3,7 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
-class Sparksfoundation(unittest.TestCase):
+class TheSparksfoundationWebsiteTesting(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path='.\\chromedriver.exe')
 
@@ -140,4 +140,4 @@ class Sparksfoundation(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    Sparksfoundation().driver.close()
+    TheSparksfoundationWebsiteTesting().driver.close()
